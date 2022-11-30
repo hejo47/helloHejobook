@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import "./reset.css";
+@import "./font.css";
+.container {
+  width: 100vw;
+  max-width: 1920px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  z-index: 99;
+  background-color: coral;
+}
+.side_menu {
+  width: 25%;
+  height: 100vh;
+  min-width: 200px;
+  padding-top: 80px;
+  margin-top: 40px;
+  position: fixed;
+  z-index: 98;
+  background-color: pink;
+}
+.depth1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.depth2 {
+  padding-left: 25px;
+  font-size: 15px;
+}
+.contents {
+  width: 100%;
+  height: max-content;
+  padding-top: 80px;
+  padding-left: 25%;
+}
+.contents_title {
+  height: 130px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wrapper {
+  width: 100%;
+  height: max-content;
+}
+.contents_desc {
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: #eee;
+}
+.contents_wrapper {
+  width: 100%;
+  height: max-content;
+  padding-top: 20px;
+  padding-left: 20px;
+}
