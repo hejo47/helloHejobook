@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>혜주의 기술블로그입니다!</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <div class="container">
-      <header w3-include-html="./html/header.html"></header>
-      <nav w3-include-html="./html/sidemenu.html"></nav>
+      <header w3-include-html="../html/header.html"></header>
+      <nav w3-include-html="../html/sidemenu.html"></nav>
       <section class="contents">
         <div class="wrapper">
           <div class="contents_title">
-            <h2>메인 화면입니다.</h2>
+            <h2>줄 수 제한하기</h2>
           </div>
           <div class="contents_desc">
-            <p><b>혜주의 기술블로그</b>입니다.</p>
+            <p><b>height 지정하기</b></p>
           </div>
           <div class="contents_wrapper">
-            <p>어서오세요!</p>
+            <pre>
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+            </pre>
           </div>
         </div>
       </section>
-      <footer w3-include-html="./html/footer.html"></footer>
+      <footer w3-include-html="../html/footer.html"></footer>
     </div>
   </body>
-  <script src="./js/common.js"></script>
+  <script src="../js/common.js"></script>
 </html>
