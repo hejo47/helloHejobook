@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>혜주의 기술블로그입니다!</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header w3-include-html="../html/header.html"></header>
+      <nav w3-include-html="../html/sidemenu.html"></nav>
+      <section class="contents">
+        <div class="wrapper">
+          <div class="contents_title">
+            <h2>meta tag</h2>
+          </div>
+          <div class="contents_desc">
+            <p>웹의 정보를 알려줌</p>
+          </div>
+          <div class="contents_wrapper">
+            <pre>
+meta http-equiv=”x-ua-compatible” content=”ie=edge”
+-> 익스플로러 호환성
+
+meta name="viewport" content="width=device-width, initial-scale=1.0"
+-> 반응형(기본 단말기 크기를 따라라), initial-scale: 초기 베율(100%)
+
+meta name="description" content="…"
+-> 페이지 설명(있어야 검색엔진에 등록됨)
+
+meta name="keyword" content="…"
+-> 키워드 설정
+
+meta name="author" content="…"
+-> 작성자
+
+meta name="robot" content="index,follow"
+-> 내용 긁어가기 X
+            </pre>
+          </div>
+        </div>
+      </section>
+      <footer w3-include-html="../html/footer.html"></footer>
+    </div>
+  </body>
+  <script src="../js/common.js"></script>
+</html>
